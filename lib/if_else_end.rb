@@ -1,7 +1,7 @@
 now = Time.now.to_i
 puts "now = #{now}!"
 if now % 2 >0
-  puts "Even!"
+  puts "odd!"
 else
-  puts "Odd!"
+  puts "Even!"
 end
