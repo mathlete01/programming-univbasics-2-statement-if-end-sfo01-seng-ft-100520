@@ -1,6 +1,6 @@
 now = Time.now.to_i
 puts "now = #{now}!"
-if now.isEven
+if now.even
   puts "Even!"
 else
   puts "Odd!"
